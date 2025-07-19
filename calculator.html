@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
 </head>
 <body>
+    <script src="calculator.js"></script>
+    <form >
+        <div class="border">
+        <input type="text"  id="box" class="screen" placeholder="Enter the values here">
+        <table>
+            <tr>
+                <td><button type="button" id="percent" class="topbar">%</button></td>
+                <td><button type="button" id="memplus" class="topbar">M+</button></td>
+                <td><button type="button" id="memminus" class="topbar">M-</button></td>
+                <td><button type="button" id="memread" class="topbar">MR</button></td>
+                <td><button type="button" id="clearall" class="clear">C</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="inverse" class="rowOne">1/x</button></td>
+                <td><button type="button" id="seven" class="number">7</button></td>
+                <td><button type="button" id="eight" class="number">8</button></td>
+                <td><button type="button" id="nine" class="number">9</button></td>
+                <td><button type="button" id="division" class="symbols">/</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="squareroot" class="rowOne">√x</button></td>
+                <td><button type="button" id="four" class="number">4</button></td>
+                <td><button type="button" id="five" class="number">5</button></td>
+                <td><button type="button" id="six" class="number">6</button></td>
+                <td><button type="button" id="multiplication" class="symbols">x</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="exponent" class="rowOne">^</button></td>
+                <td><button type="button" id="one" class="number">1</button></td>
+                <td><button type="button" id="two" class="number">2</button></td>
+                <td><button type="button" id="three" class="number">3</button></td>
+                <td><button type="button" id="subtraction" class="symbols">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="second" class="rowOne">2nd</button></td>
+                <td><button type="button" id="zero" class="number">0</button></td>
+                <td><button type="button" id="decimal" class="pointandnegative">.</button></td>
+                <td><button type="button" id="negative" class="pointandnegative">(-)</button></td>
+                <td><button type="button" id="addition" class="symbols">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="5"><button width="30" type="button" id="equal" class="equal">=</button></td>
+            </tr>
+        </table>
+        </div>
+    </form>
     
 </body>
 </html>
